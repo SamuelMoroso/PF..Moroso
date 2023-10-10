@@ -1,12 +1,9 @@
-#footerIndex {
-    background-color: rgba(0, 0, 0,0.4);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#footerIngresar {
+    background-color: rgba(0, 0, 0,0.6);
     text-align: center;
     color: white;
     font-family: serif;
-    
+
     a {
         text-decoration: none;
         color: rgb(223, 68, 68);
@@ -14,9 +11,7 @@
     h3 {
         font-size: 15px;
     }
-
     .redes:hover {
         color: white;
     }
 }
-

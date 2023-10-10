@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #bodyIndex {
     background-image: url(../assets/img/fondoIndex.jpg);
     background-size: cover;
@@ -10,6 +11,15 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+/* IMPORTS DE INDEX*/
+
 @import "layout/Index/headerIndex";
 @import "layout/Index/articleIndex";
 @import "layout/Index/footerIndex";
+
+/* IMPORTS DE SECCIÓN INGRESAR*/
+
+@import "layout/Ingresar/headerIngresar";
+@import "layout/Ingresar/sectionIngresar";
+@import "layout/Ingresar/footerIngresar";

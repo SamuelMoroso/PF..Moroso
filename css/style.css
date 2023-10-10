@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -12,38 +13,36 @@
   background-attachment: fixed;
 }
 
-header {
+/* IMPORTS DE INDEX*/
+#headerIndex {
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav {
+#headerIndex nav {
   color: white;
   font-size: x-large;
   margin: 30px;
 }
-header nav a {
+#headerIndex nav a {
   text-decoration: none;
   color: white;
   padding: 11px;
 }
-header img {
+#headerIndex img {
   width: 85px;
   margin-left: 50px;
 }
-
-#Publica {
+#headerIndex #Publica {
   border: 4px solid white;
   border-radius: 15px;
 }
-
-#Publica:hover {
+#headerIndex #Publica:hover {
   background-color: rgb(240, 88, 88);
   color: white;
 }
-
-.Barra:hover {
+#headerIndex .barra:hover {
   color: black;
 }
 
@@ -65,20 +64,93 @@ article .titulo {
   font-style: oblique;
 }
 
-footer {
+#footerIndex {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
   color: white;
+  font-family: serif;
 }
-footer a {
+#footerIndex a {
   text-decoration: none;
   color: rgb(223, 68, 68);
 }
+#footerIndex h3 {
+  font-size: 15px;
+}
+#footerIndex .redes:hover {
+  color: white;
+}
 
-.redes:hover {
+/* IMPORTS DE SECCIÓN INGRESAR*/
+#headerIngresar {
+  background-color: rgb(243, 92, 92);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerIngresar nav {
+  color: white;
+  font-size: x-large;
+  margin: 30px;
+}
+#headerIngresar nav a {
+  text-decoration: none;
+  color: white;
+  padding: 11px;
+}
+#headerIngresar img {
+  width: 85px;
+  margin-left: 50px;
+}
+#headerIngresar #Publica {
+  border: 4px solid white;
+  border-radius: 15px;
+}
+#headerIngresar #Publica:hover {
+  background-color: rgb(247, 247, 247);
+  color: rgb(243, 92, 92);
+}
+#headerIngresar .barra:hover {
+  color: black;
+}
+
+#sectionIngresar {
+  background-color: rgb(243, 92, 92);
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  height: 160px;
+}
+#sectionIngresar div {
+  padding: 30px;
+}
+#sectionIngresar div img {
+  width: 60px;
+  align-items: center;
+}
+
+#lineaseparacion {
+  font-size: larger;
+  text-align: center;
+}
+
+#footerIngresar {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  font-family: serif;
+}
+#footerIngresar a {
+  text-decoration: none;
+  color: rgb(223, 68, 68);
+}
+#footerIngresar h3 {
+  font-size: 15px;
+}
+#footerIngresar .redes:hover {
   color: white;
 }
 
