@@ -1,0 +1,17 @@
+footer {
+    background-color: rgba(0, 0, 0,0.4);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: rgb(223, 68, 68);
+    }
+}
+
+.redes:hover {
+    color: white;
+}

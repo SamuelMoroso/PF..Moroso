@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bodyIndex {
+  background-image: url(../assets/img/fondoIndex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  color: white;
+  font-size: x-large;
+  margin: 30px;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 11px;
+}
+header img {
+  width: 85px;
+  margin-left: 50px;
+}
+
+#Publica {
+  border: 4px solid white;
+  border-radius: 15px;
+}
+
+#Publica:hover {
+  background-color: rgb(240, 88, 88);
+  color: white;
+}
+
+.Barra:hover {
+  color: black;
+}
+
+article {
+  margin-top: 190px;
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+}
+article h1 {
+  font-size: 60px;
+}
+article h2 {
+  font-size: 40px;
+}
+article .titulo {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-style: oblique;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(223, 68, 68);
+}
+
+.redes:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

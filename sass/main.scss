@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#bodyIndex {
+    background-image: url(../assets/img/fondoIndex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+@import "layout/Index/headerIndex";
+@import "layout/Index/articleIndex";
+@import "layout/Index/footerIndex";
