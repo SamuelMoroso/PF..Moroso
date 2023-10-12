@@ -24,4 +24,11 @@
 .fotoscasas {
     width: 414px;
     height: 258.75px;
+transition: transform 1s, filter 2s;
+filter: grayscale(1);
+}
+
+.fotoscasas:hover {
+    transform: scale(1.1);
+filter: none;
 }
