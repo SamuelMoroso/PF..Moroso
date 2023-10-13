@@ -43,7 +43,8 @@ width: 1000px;
     }
   
     &:hover {
-      color: rgb(243, 92, 92); 
+      color: $color-principal; 
+      cursor: default;
       &:before {
         transform: scaleX(1); 
       }

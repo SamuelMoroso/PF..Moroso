@@ -75,7 +75,7 @@ article .titulo {
 }
 #footerIndex a {
   text-decoration: none;
-  color: rgb(223, 68, 68);
+  color: rgb(240, 88, 88);
 }
 #footerIndex h3 {
   font-size: 15px;
@@ -111,14 +111,14 @@ article .titulo {
 }
 #headerIngresar #Publica:hover {
   background-color: rgb(247, 247, 247);
-  color: rgb(243, 92, 92);
+  color: rgb(240, 88, 88);
 }
 #headerIngresar .barra:hover {
   color: black;
 }
 
 #sectionIngresar {
-  background-color: rgb(243, 92, 92);
+  background-color: rgb(240, 88, 88);
   font-size: 25px;
   color: white;
   text-align: center;
@@ -145,7 +145,7 @@ article .titulo {
 }
 #footerIngresar a {
   text-decoration: none;
-  color: rgb(223, 68, 68);
+  color: rgb(240, 88, 88);
 }
 #footerIngresar h3 {
   font-size: 15px;
@@ -156,7 +156,7 @@ article .titulo {
 
 /* IMPORTS DE SECCIÓN DESTINOS*/
 #sectionDestinos {
-  background-color: rgb(243, 92, 92);
+  background-color: rgb(240, 88, 88);
   font-size: 25px;
   color: white;
   text-align: center;
@@ -173,7 +173,10 @@ article .titulo {
 .ubicaciones {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(243, 92, 92);
+  background: linear-gradient(to right, rgb(240, 88, 88) 49%, rgb(241, 187, 36) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .fotoscasas {
@@ -228,10 +231,91 @@ article .titulo {
   transition: transform 0.3s;
 }
 .tituloTrayectoria:hover {
-  color: rgb(243, 92, 92);
+  color: rgb(240, 88, 88);
+  cursor: default;
 }
 .tituloTrayectoria:hover:before {
   transform: scaleX(1);
+}
+
+/* IMPORTS DE SECCIÓN PUBLICA TU PROPIEDAD*/
+#planes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+#planes .comision {
+  width: 700px;
+  border: 5px dashed rgb(240, 88, 88);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px;
+}
+#planes .comision h1 {
+  text-align: center;
+  background: linear-gradient(to right, rgb(240, 88, 88) 49%, rgb(241, 187, 36) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+#planes .comision h3 {
+  text-align: justify;
+  margin: 15px;
+}
+#planes .comision button {
+  display: block;
+  margin: 0 auto;
+  font-size: large;
+  border: transparent;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(243, 92, 92);
+  color: white;
+  transition: transform 0s;
+}
+#planes .comision button:hover {
+  background-color: rgb(241, 187, 36);
+  transform: scale(1.1);
+}
+
+#nuestrosSocios {
+  text-align: center;
+  color: #333;
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+}
+#nuestrosSocios:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: rgb(243, 92, 92);
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: transform 0.3s;
+}
+#nuestrosSocios:hover {
+  color: rgb(240, 88, 88);
+  cursor: default;
+}
+#nuestrosSocios:hover:before {
+  transform: scaleX(1);
+}
+
+.socios {
+  padding-top: 3px;
+  width: 170px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.divSocios {
+  display: grid;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

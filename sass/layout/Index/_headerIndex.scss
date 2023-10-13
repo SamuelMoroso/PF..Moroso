@@ -1,3 +1,5 @@
+$color-principal:rgb(240, 88, 88);
+$color-secundario:  rgb(241, 187, 36);
 #headerIndex {
     background-color: rgba(0, 0, 0, .2);
     display: flex;
@@ -27,7 +29,7 @@
     }
     
     #Publica:hover {
-        background-color: rgb(240, 88, 88);
+        background-color: $color-principal;
         color: white;
     }
     .barra:hover {

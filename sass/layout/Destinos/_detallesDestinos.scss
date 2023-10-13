@@ -1,5 +1,5 @@
 #sectionDestinos {
-    background-color: rgb(243, 92, 92);
+    background-color:$color-principal;
     font-size: 25px;
     color: white;
     text-align: center;
@@ -18,7 +18,10 @@
 .ubicaciones {
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color: rgb(243, 92, 92);
+    background: linear-gradient(to right, $color-principal 49%,$color-secundario 50%); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
 }
 
 .fotoscasas {
