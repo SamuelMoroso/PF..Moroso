@@ -1,8 +1,8 @@
-article {
+#articleIndex {
     margin-top: 190px;
     display: grid;
     grid-template-rows: repeat(2, 50%);
-    
+
     h1 {
         font-size: 60px;
 
@@ -16,6 +16,6 @@ article {
         padding-top: 30px;
         text-align: center;
         color: rgb(255, 255, 255);
-       font-style: oblique;
+        font-style: oblique;
     }
 }

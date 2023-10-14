@@ -1,0 +1,276 @@
+/* RESPONSIVE SECCIÓN INDEX */
+
+.menuMovil {
+    display: none;
+
+}
+
+.iconoCasa {
+    display: none;
+
+    img {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #headerIndex {
+        display: none;
+
+    }
+
+    .menuEscritorio {
+        display: none;
+    }
+
+    .menuMovil {
+        width: 150px;
+        display: block;
+        position: absolute;
+        top: 9px;
+        left: 3px;
+        background-color: transparent;
+
+        a {
+            color: white;
+            font-size: 15px;
+
+        }
+    }
+
+    .iconoCasa {
+        display: block;
+
+        img {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+    #footerIndex {
+        line-height: 0.8;
+
+        h3,
+        p {
+            font-size: 15px;
+
+        }
+
+        a {
+            font-size: 15px;
+        }
+    }
+
+
+    /* RESPONSIVE SECCIÓN INGRESAR */
+
+
+    #headerIngresar {
+        display: none;
+    }
+
+    #sectionIngresar {
+        height: 230px;
+        padding-top: 50px;
+    }
+
+
+    /* RESPONSIVE SECCIÓN DESTINOS */
+
+
+    #sectionDestinos {
+        height: 230px;
+        padding-top: 50px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .fotoscasas {
+        width: auto;
+        height: 200px;
+    }
+
+
+    /* RESPONSIVE SECCIÓN NOSOTROS */
+
+
+    #sectionEmpleados {
+        img {
+            width: 320px;
+
+        }
+    }
+
+    #articleTrayectoria {
+        grid-template-rows: 80px auto 80px 700px;
+        justify-content: center;
+
+        div {
+            font-size: 15px;
+            width: auto;
+            height: auto;
+            text-align: center;
+
+        }
+    }
+
+
+    /* RESPONSIVE SECCIÓN PUBLICATUPROPIEDAD */
+
+
+    #sectionIngresar {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+
+    #planes {
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+        .comision {
+            width: auto;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        div {
+            h1 {
+                font-size: x-larger;
+            }
+            h3 {
+                font-size: medium;
+            }
+        }
+
+    }
+
+    #nuestrosSocios {
+        font-size: x-large;
+    }
+
+    .socios {
+        width: 130px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+
+    #headerIndex {
+        nav {
+            font-size: 15px;
+            margin: 30px;
+        }
+    }
+
+
+    /* RESPONSIVE SECCIÓN INGRESAR */
+
+
+    #headerIngresar {
+        nav {
+            font-size: 15px;
+        }
+    }
+
+
+    /* RESPONSIVE SECCIÓN DESTINOS */
+
+
+    .fotoscasas {
+        width: auto;
+        height: 170px;
+    }
+
+    #sectionDestinos {
+        height: 180px;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+
+    /* RESPONSIVE SECCIÓN NOSOTROS */
+
+
+    #sectionEmpleados {
+        img {
+            width: 700px;
+        }
+    }
+
+    #articleTrayectoria {
+        grid-template-rows: 100px 500px 100px 400px;
+        justify-content: center;
+        div {
+            font-size: 80px;
+            width: auto;
+            height: auto;
+            text-align: justify;
+        }
+    }
+
+
+    /* RESPONSIVE SECCIÓN PUBLICATUPROPIEDAD */
+
+
+    #sectionIngresar {
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    #planes {
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+        .comision {
+            width: auto;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        div {
+            h1 {
+                font-size: x-larger;
+            }
+            h3 {
+                font-size: medium;
+            }
+        }
+    }
+
+    #nuestrosSocios {
+        font-size: x-large;
+    }
+
+    .socios {
+        width: 130px;
+        height: 110px;
+    }
+}

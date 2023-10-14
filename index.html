@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alquila tu propiedad</title>
+    <meta name="description"
+        content="¡Bienvenido a Destino Hogar! Encuentra las mejores casas en alquiler para tu próximo destino. Ofrecemos una amplia selección de propiedades para que encuentres tu hogar ideal. Descubre nuestras ofertas hoy mismo.">
+    <meta name="keywords"
+        content="alquiler de casas, viviendas en alquiler, propiedades en alquiler, hogar, alquiler temporal, destinos, alojamiento, hogar ideal">
+    <title>Destino Hogar|Las mejores opciones en alquileres turísticos</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/img/Iconos/Favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body id="bodyIndex">
+
     <header id="headerIndex">
         <a href="./index.html">
             <img src="./assets/img/Iconos/casa.png" alt="Icono de casa para header">
         </a>
 
-        <nav>
+        <nav class="menuEscritorio">
             <a class="barra" href="./pages/ingresar.html">INGRESAR</a>
             <a class="barra" href="./pages/destinos.html">DESTINOS</a>
             <a class="barra" href="./pages/nosotros.html">NOSOTROS</a>
@@ -25,24 +30,68 @@
         </nav>
     </header>
 
-    <article>
+    <div class="iconoCasa">
+        <img src="./assets/img/Iconos/casa.png" alt="">
+    </div>
+
+    <!--MENU DE HAMBURGUESA PARA VISTA MOVIL-->
+
+    <header class="menuMovil">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+            <!-- Botón de hamburguesa para dispositivos móviles -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/ingresar.html">INGRESAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/destinos.html">DESTINOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/publicaTuPropiedad.html">PUBLICA TU PROPIEDAD</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <article id="articleIndex">
         <h1 class="titulo">DESTINO HOGAR</h1>
         <h2 class="titulo">"Casas de ensueño, al alcance de todos"</h2>
     </article>
 
     <footer id="footerIndex">
+
         <div>
             <h3> © 2023 DESTINO HOGAR. Todos los derechos reservados.</h3>
         </div>
 
         <div>
-            Síguenos en nuestras redes sociales:
+            <p>Síguenos en nuestras redes sociales:</p>
             <a class="redes" href="#"> @Facebook</a>
             <a class="redes" href="#"> @Twitter</a>
             <a class="redes" href="#"> @Instagram</a>
         </div>
 
     </footer>
+
+    <!--SCRIPS PARA MENU HAMBURGUESA-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

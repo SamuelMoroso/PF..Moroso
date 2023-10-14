@@ -1,5 +1,5 @@
 #sectionDestinos {
-    background-color:$color-principal;
+    background-color: $color-principal;
     font-size: 25px;
     color: white;
     text-align: center;
@@ -17,21 +17,21 @@
 
 .ubicaciones {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    background: linear-gradient(to right, $color-principal 49%,$color-secundario 50%); 
-    -webkit-background-clip: text; 
-    background-clip: text; 
-    color: transparent; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, $color-principal 49%, $color-secundario 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .fotoscasas {
     width: 414px;
     height: 258.75px;
-transition: transform 1s, filter 2s;
-filter: grayscale(1);
+    transition: transform 1s, filter 2s;
+    filter: grayscale(1);
 }
 
 .fotoscasas:hover {
     transform: scale(1.1);
-filter: none;
+    filter: none;
 }

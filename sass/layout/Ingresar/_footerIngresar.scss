@@ -1,5 +1,5 @@
 #footerIngresar {
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     color: white;
     font-family: serif;
@@ -8,9 +8,11 @@
         text-decoration: none;
         color: $color-principal;
     }
+
     h3 {
         font-size: 15px;
     }
+
     .redes:hover {
         color: white;
     }
